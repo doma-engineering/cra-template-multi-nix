@@ -2,6 +2,8 @@
 
 This is an unofficial [Create React App](https://github.com/facebook/create-react-app) TypeScript template, backed by Nix and allowing for multiple entry points.
 
+This temlpate also allows you to develop [WDIO](https://webdriver.io/) tests with a resonably modern Google Chrome backend.
+
 To use this template, add `--template multi-nix` when creating a new app.
 
 For example:
