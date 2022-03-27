@@ -1,0 +1,4 @@
+rm -rf template/node_modules
+rm -rf template/.direnv
+rm -rf template/package*
+rm -rf template/node_modules

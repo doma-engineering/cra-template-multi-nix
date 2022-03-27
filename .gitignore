@@ -1,0 +1,5 @@
+template/node_modules/
+template/.direnv/
+template/package.*
+template/test.sh
+node_modules/
