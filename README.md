@@ -1,6 +1,6 @@
-# cra-template-multi-nix
+# CRA template for rapid and sustainable prototyping
 
-This is an unofficial [Create React App](https://github.com/facebook/create-react-app) TypeScript template, backed by Nix and allowing for multiple entry points.
+This is an _unofficial_ [Create React App](https://github.com/facebook/create-react-app) TypeScript template, backed by Nix and allowing for multiple entry points.
 
 This temlpate also allows you to develop [WDIO](https://webdriver.io/) tests with a resonably modern Google Chrome backend.
 
@@ -59,7 +59,9 @@ and pop browser pointing to that component.
 
 ## Webdriver.io tests
 
-We have a minimal tests demonstrating that wdio indeed works and a solution to run the thing with `docker compose`, which you'll need to install onto your Ubuntu 20.04 LTS Linux the way you want. I personally use Windows docker engine and corresponding packages from within Ubuntu and it somehow works, but I assume that for your linux the installation instructions are different. It would be nice to have these instructions here, because docker documentation is all over the place. If you want to contribute these instructions, I'll be honoured to accept your PR.
+**NB! WDIO will be installed automatically as devDependency the first time you run `wdio.sh`**.
+
+We have a minimal set of tests demonstrating that wdio indeed works and a solution to run the thing with `docker compose`. You'll need to install docker onto your Ubuntu 20.04 LTS Linux the way you want. I personally use Windows docker engine and corresponding packages from within Ubuntu. It works by linking a binary distribution of Docker, patched to use the Windows backend (somehow) into WSL2 /usr/bin. I assume that for your linux the installation instructions are different. It would be nice to have these instructions here, because docker documentation is all over the place. If you want to contribute these instructions, I'll be honoured to accept your PR.
 
 The idea of using docker compose is twofold:
 
