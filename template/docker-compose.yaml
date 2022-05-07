@@ -2,7 +2,7 @@ version: '3'
 # IN VSCODE, PLEASE USE "SAVE WITHOUT FORMATTING" COMMAND: <F1> -> "Save without formatting"
 services:
     sneakium:
-        image: 'domadev/sneakium:2022-03-23--1'
+        image: 'domadev/sneakium:2022-05-07'
         networks:
             - sneak_link
         depends_on:
