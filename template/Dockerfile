@@ -6,4 +6,4 @@ WORKDIR /home/user
 COPY --chown=user:user . /home/user/
 RUN su user
 RUN cd /home/user
-RUN node --require tsm ./run.ts SimpleRegister.tsx build
+RUN node --require tsm ./run.ts App.tsx build
